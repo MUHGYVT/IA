@@ -1,0 +1,184 @@
+* {
+ margin: 0;
+ padding: 0; 
+}
+
+body {
+ background-color: #10253A;
+}
+
+p {
+ color: white;
+ font-weight: 400;
+}
+
+a{
+ color: #85caff;
+ font-weight: 400;
+ font-size: 10px;
+}
+   
+h1, h2, h3 {
+ color: #85caff;
+}
+
+strong {
+ color: rgb(204, 231, 252)
+}
+
+body::before {
+ content: '';
+ width: 100%;
+ height: 80px;
+ z-index: -1;
+ background: rgb(16,37,58);
+ background: linear-gradient(90deg, rgba(16,37,58,1) 0%, rgba(37,51,92,1) 49%, rgba(159,209,246,1) 100%);
+ position: absolute;
+ left: 0;
+ top: 0;
+ border-bottom: 3px solid #85caff;
+ margin-bottom: 5px;
+}
+
+:root {
+ font-family: 'Source Serif 4', serif;
+ font-size: 62.5%;
+}
+
+.page {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ max-width: 350px;
+ margin-inline: auto;
+ padding-bottom: 10px;
+}
+
+.logo {
+ width: 50px;
+ height: 50px;
+}
+
+.what, .origin, .how, .example {
+margin-top: 20px;
+}
+
+.origin {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.how {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.example {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.image p, h2 {
+ margin-bottom: 5px;
+}
+
+
+.video p, h2 {
+ margin-bottom: 5px;
+}
+
+video {
+ width: 350px;
+ border-radius: 5px;
+}
+
+.monalisa {
+ width: 350px;
+ border-radius: 5px;
+}
+
+hero {
+ margin-top: 10px;
+ margin-bottom: 20px;
+ display: flex;
+ flex-direction: column;
+ gap: 7px;
+}
+
+hero p {
+ margin-top: 5px;
+}
+
+span {
+ color: #85caff;
+}
+
+
+
+@media (min-width:768px){
+.page {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ max-width: 850px;
+ margin-inline: auto;
+ padding-bottom: 10px;
+}
+
+p {
+ font-size: 20px;
+}
+
+h1 {
+ font-size: 45px;
+}
+
+h2 {
+ font-size: 30px;
+}
+
+a{
+   font-size: 20px;
+}
+
+
+.logo {
+ width: 110px;
+ height: 110px;
+}
+
+body::before {
+height: 180px;
+}
+
+.monalisa {
+ width: 450px;
+ border-radius: 8px;
+}
+
+video {
+ width: 800px;
+ border-radius: 8px;
+}
+
+.Names {
+ display: flex;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ gap: 7px;
+}
+
+.we {
+ padding: 4px;
+}
+
+.he {
+ padding: 4px;
+}
+
+}
+
