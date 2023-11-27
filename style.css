@@ -7,6 +7,20 @@ body {
  background-color: #10253A;
 }
 
+body::-webkit-scrollbar {
+ width: 12px; 
+}
+
+body::-webkit-scrollbar-track {
+ background: #85caff;     
+}
+
+body::-webkit-scrollbar-thumb {
+ background-color: #10253A;
+ border-radius: 20px;
+ border: 3px solid #85caff;
+}
+
 p {
  color: white;
  font-weight: 400;
